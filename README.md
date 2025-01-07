@@ -6,6 +6,7 @@ Developing  an automated data pipeline system (ETL) by combining Apache Airflow 
 - Python 3.x
 - Apache Airflow
 - Apache PySpark
+- Python Great Expectation
 
 ## Project Structure
 
@@ -25,8 +26,16 @@ Developing  an automated data pipeline system (ETL) by combining Apache Airflow 
 #### 4. Access Airflow UI:
 
 - Open a browser and access the Airflow UI at http://localhost:8080 to monitor and manage the DAG.
-Schedule DAG:
 
-#### 5. The DAG will run automatically according to the specified schedule.
+#### 5. Schedule DAG:
+
+- The DAG will run automatically according to the specified schedule.
 - Once the DAG is scheduled, the ETL process will run automatically
 - After the ETL process is complete, US Store Sales Report data will be available in the target system specified in the load.py script.
+
+#### 6. Data Validation:
+
+- Installing Great Expectation
+- Set up expectation
+- Generate data and make sure all the data pass the validating prerequisites
+
