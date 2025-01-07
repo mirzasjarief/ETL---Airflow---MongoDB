@@ -19,8 +19,8 @@ Developing  an automated data pipeline system (ETL) by combining Apache Airflow 
 
 - Start the Airflow scheduler and web server with the command:
   
-airflow scheduler
-airflow webserver
+  airflow scheduler
+  airflow webserver
 
 #### 4. Access Airflow UI:
 
@@ -28,3 +28,5 @@ airflow webserver
 Schedule DAG:
 
 #### 5. The DAG will run automatically according to the specified schedule.
+- Once the DAG is scheduled, the ETL process will run automatically
+- After the ETL process is complete, US Store Sales Report data will be available in the target system specified in the load.py script.
