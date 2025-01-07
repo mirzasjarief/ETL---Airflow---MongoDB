@@ -8,6 +8,7 @@ Developing  an automated data pipeline system (ETL) by combining Apache Airflow 
 - Apache PySpark
 
 ## Project Structure
+
 #### 1. Airflow installation 
 
 #### 2. Configure DAG:
@@ -17,6 +18,7 @@ Developing  an automated data pipeline system (ETL) by combining Apache Airflow 
 #### 3. Run Airflow:
 
 - Start the Airflow scheduler and web server with the command:
+  
 airflow scheduler
 airflow webserver
 
@@ -25,4 +27,4 @@ airflow webserver
 - Open a browser and access the Airflow UI at http://localhost:8080 to monitor and manage the DAG.
 Schedule DAG:
 
-The DAG will run automatically according to the specified schedule.
+#### 5. The DAG will run automatically according to the specified schedule.
