@@ -26,7 +26,7 @@ Before initiating the ETL process, perform an exploratory analysis on the datase
 ### 2. Airflow installation 
 
 #### Installation
-Ensure Apache Airflow is installed and configured. Follow the official Airflow installation guide.
+- Ensure Apache Airflow is installed and configured. Follow the official Airflow installation guide.
 
 #### Configuring the DAG
 1. Update the dags.py file to define your workflow:
@@ -35,10 +35,10 @@ Ensure Apache Airflow is installed and configured. Follow the official Airflow i
 2. Place the dags.py file in the designated dags folder of your Airflow project.
 
 #### Run Airflow:
-Start the Airflow scheduler and web server
+- Start the Airflow scheduler and web server
 
 #### Access Airflow UI:
-Open your browser and navigate to http://localhost:8080. The Airflow UI allows you to monitor and manage the DAGs (Directed Acyclic Graphs) for your ETL process.
+- Open your browser and navigate to http://localhost:8080. The Airflow UI allows you to monitor and manage the DAGs (Directed Acyclic Graphs) for your ETL process.
 
 ### 3. Scheduling and Automation
 - The DAG is configured to run according to the schedule defined in dags.py (e.g., daily, weekly).
