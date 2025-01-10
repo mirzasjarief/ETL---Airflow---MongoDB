@@ -52,16 +52,18 @@ Open your browser and navigate to http://localhost:8080. The Airflow UI allows y
 ### 4. Data Validation with Great Expectations
 
 #### Installing Great Expectations
-Install the library to validate the data:
+- Install the library to validate the data:
 
-pip install great-expectations
+#### !pip install -q "great-expectations==0.18.19"
 
 #### Setting Up Expectations
 
 1. Initialize Great Expectations in your project:
-bash
-Salin kode
-great_expectations init
+#### import the necessary libraries 
+#### from great_expectations.data_context import FileDataContext
+#### Create a data context
+#### context = FileDataContext.create(project_root_dir='./')
+
 2. Define validation rules (Expectations) for your data, such as:
 - No missing values in key columns.
 - Numeric values fall within specified ranges.
