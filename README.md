@@ -19,11 +19,11 @@ Developing  an automated data pipeline system (ETL) by combining Apache Airflow 
 4. Data Validation with Great Expectations
 
 
-### 1. Data Exploratory and analysist 
+## 1. Data Exploratory and analysist 
 
 Before initiating the ETL process, perform an exploratory analysis on the dataset to understand its structure, identify missing values, and ensure the data is ready for transformation. Use tools such as pandas, matplotlib, or seaborn for analysis and visualization.
 
-### 2. Airflow installation 
+## 2. Airflow installation 
 
 #### Installation
 - Ensure Apache Airflow is installed and configured. Follow the official Airflow installation guide.
@@ -40,7 +40,7 @@ Before initiating the ETL process, perform an exploratory analysis on the datase
 #### Access Airflow UI:
 - Open your browser and navigate to http://localhost:8080. The Airflow UI allows you to monitor and manage the DAGs (Directed Acyclic Graphs) for your ETL process.
 
-### 3. Scheduling and Automation
+## 3. Scheduling and Automation
 - The DAG is configured to run according to the schedule defined in dags.py (e.g., daily, weekly).
 - Once scheduled, Airflow will automatically execute the ETL process, performing:
 
@@ -49,7 +49,7 @@ Before initiating the ETL process, perform an exploratory analysis on the datase
 3. Loading: Transfer the processed data to the target system.
 - After successful execution, the US Store Sales Report will be available in the target system, as specified in the load.py script.
 
-### 4. Data Validation with Great Expectations
+## 4. Data Validation with Great Expectations
 
 #### Installing Great Expectations
 - Install the library to validate the data:
