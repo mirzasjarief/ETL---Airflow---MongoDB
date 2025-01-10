@@ -54,13 +54,13 @@ Before initiating the ETL process, perform an exploratory analysis on the datase
 #### Installing Great Expectations
 - Install the library to validate the data:
 
-#### !pip install -q "great-expectations==0.18.19"
+- #### !pip install -q "great-expectations==0.18.19"
 
 #### Setting Up Expectations
 
 1. Initialize Great Expectations in your project:
-#### - import the necessary libraries : from great_expectations.data_context import FileDataContext
-#### - Create a data context : context = FileDataContext.create(project_root_dir='./')
+- #### import the necessary libraries : from great_expectations.data_context import FileDataContext
+- #### Create a data context : context = FileDataContext.create(project_root_dir='./')
 
 2. Define validation rules (Expectations) for your data, such as:
 - No missing values in key columns.
