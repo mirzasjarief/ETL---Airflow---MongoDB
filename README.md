@@ -69,5 +69,5 @@ Before initiating the ETL process, perform an exploratory analysis on the datase
 - Generate and validate data using Great Expectations.
 - Ensure that all data passes the defined validation rules before moving it to the target system.
 
-### Conclusion
+## Conclusion
 This ETL pipeline leverages Airflow for automation and orchestration, while Great Expectations ensures data quality. By following this guide, you can effectively manage and validate your US Store Sales Report ETL process. For further enhancements, consider adding monitoring tools or integrating data versioning.
